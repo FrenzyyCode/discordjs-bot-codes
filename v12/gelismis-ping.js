@@ -87,7 +87,7 @@ pingdurum = "#66ff00"
 const electusembed = new Discord.MessageEmbed()
 .setTitle('Electus | Ping')//
 .setDescription(`Gecikme: ${client.ws.ping+ "ms"} ${pingmesaj}\n\nMesaj Gecikmesi: ${(Date.now() - message.createdAt)+ "ms"} ${mesaj}`)
-.setImage('https://dummyimage.com/2000x500/33363c/${renkKodu}&text='+ client.ws.ping +'%20Ping')
+.setImage('https://dummyimage.com/2000x500/33363c/fff&text='+ client.ws.ping +'%20Ping')
 .setColor(pingdurum)
 .setFooter(`${message.author.username} komutu kullandı.`)
 message.channel.send(electusembed)
